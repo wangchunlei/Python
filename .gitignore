@@ -1,2 +1,5 @@
 django/mysite/db.sqlite3
 django/webapi/db.sqlite3
+
+*.sqlite3
+*.pyc
