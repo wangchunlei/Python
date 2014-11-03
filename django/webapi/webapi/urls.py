@@ -7,8 +7,7 @@ import os
 #run bash command
 @api_view(['GET', 'POST'])
 def myapi(request):
-	os.mkdir("wangcl")
-	return Response("123")
+	return Response(os.popen("date").read())
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browseable API.
 urlpatterns = [
