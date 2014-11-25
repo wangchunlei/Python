@@ -7,11 +7,12 @@ from multiprocessing import Pool
 import socket
 import subprocess
 
-NUM_CORES = 3000
+NUM_CORES = 500
 
 
 def ping(host, port):
     try:
+    	print "scanning on :", port
         s = socket.socket()
         s.settimeout(1)
         s.connect((host, port))
