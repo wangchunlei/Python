@@ -1,0 +1,39 @@
+#!/bin/bash
+ConfigFile='./config.xml'
+if [ ! -f $ConfigFile ];then
+	echo "Can not find config file"
+	exit 1
+fi
+echo $ConfigFile
+
+USERNAME=`grep UserName $1 | cut -d ">" -f 2 | cut -d "<" -f 1`
+PASSWD=`grep Passwd $1 | cut -d ">" -f 2 | cut -d "<" -f 1`
+SVNURL=`grep SVNUrl $1 | cut -d ">" -f 2 | cut -d "<" -f 1`
+QMAKEDIR=`grep QmakeDir $1 | cut -d ">" -f 2 | cut -d "<" -f 1`
+CROSSCOMPILE=`grep CrossCompile $1 | cut -d ">" -f 2 | cut -d "<" -f 1`
+
+COMPANY=`grep Company $1 | cut -d ">" -f 2 | cut -d "<" -f 1`
+PRODUCT=`grep Product $1 | cut -d ">" -f 2 | cut -d "<" -f 1`
+COPYRIGHT=`grep CopyRight $1 | cut -d ">" -f 2 | cut -d "<" -f 1`
+VERSION=`grep Version $1 | cut -d ">" -f 2 | cut -d "<" -f 1`
+FILEVERSION=`grep FileVersion $1 | cut -d ">" -f 2 | cut -d "<" -f 1`
+BUILDVERSION=`grep BuildVersion $1 | cut -d ">" -f 2 | cut -d "<" -f 1`
+
+PATH=$PATH:$CROSSCOMPILE
+PATH=$PATH:$QMAKEDIR
+
+mkdir $BUILDVERSION
+DirCount=`ls -l | grep "^d" | wc -l`
+if [ "$DirCount" == 6 ];then
+	CutDir=`ls -l | head -n 2 | tail -n 1 | cut -d " " -f 8`
+	rm -rf $CutDir
+fi
+cd $BUILDVERSION
+mkdir bin
+svn export --non-interactive --trust-server-cert -r$BUILDVERSION $SVNURL --username rd\\$USERNAME --password $PASSWD
+cd src
+sed -i "s/\".*\"/\""$FILEVERSION"\"/g" version.h
+
+qmake *.pro -r -spec qws/linux-arm-g++ CONFIG+=debug_and_release
+make release -w
+cp domas ../bin
