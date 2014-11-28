@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Config version="11.1210">
+	<UserName>wangcl</UserName>
+	<Passwd>wangcl</Passwd>
+	<InstallDirectory>./</InstallDirectory>
+	<SVNUrl>https://dev/svn/crossfire/trunk/Domas.CT/qml/src</SVNUrl>
+	<QmakeDir>/opt/qt4.8.2-arm/bin</QmakeDir>
+	<CrossCompile>/opt/4.3.3/bin</CrossCompile>
+	<Company>北京立思辰计算机技术有限公司</Company>
+	<Product>DOMAS</Product>
+	<CopyRight>版权所有 (C) 立思辰 2013</CopyRight>
+	<Version>5.0.0.0</Version>
+	<FileVersion>5.0.16410.0</FileVersion>
+	<BuildVersion>16533</BuildVersion>
+</Config>
