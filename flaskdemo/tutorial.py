@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from flask import Flask, Response, request, json
+from flask import Flask, Response, request, json,send_file
 from subprocess import check_output
 import xml.etree.ElementTree as ET
 
@@ -38,7 +38,7 @@ def api_post():
 
     tree.write('./config.xml', encoding="UTF-8")
     out = check_output(['./compileproject'])
-    return out+'Build Success!'
+    return send_file('./%s/bin/domas' % buildversion, as_attachment=True)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)

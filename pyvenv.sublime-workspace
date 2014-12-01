@@ -1,0 +1,1101 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fl",
+				"Flask"
+			],
+			[
+				"el",
+				"ElementTree  (module)"
+			],
+			[
+				"def",
+				"defs	Method"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"__",
+				"__name__"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"ch",
+				"check_output  (function)"
+			],
+			[
+				"ar",
+				"articleid"
+			],
+			[
+				"fa",
+				"Flask"
+			],
+			[
+				"sc",
+				"scanning"
+			],
+			[
+				"tar",
+				"targetIP"
+			],
+			[
+				"test",
+				"TestHandler"
+			],
+			[
+				"ser",
+				"server_address"
+			],
+			[
+				"serv",
+				"ServerClass"
+			],
+			[
+				"simpleh",
+				"SimpleHTTPRequestHandler"
+			],
+			[
+				"s",
+				"SimpleHTTPRequestHandler  (class)"
+			],
+			[
+				"si",
+				"SimpleHTTPServer  (module)"
+			],
+			[
+				"la",
+				"lanxum"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"ur",
+				"urllib2"
+			],
+			[
+				"api",
+				"api_view"
+			],
+			[
+				"ap",
+				"ApiModel"
+			],
+			[
+				"con",
+				"contrib  (module)"
+			],
+			[
+				"p",
+				"polls"
+			],
+			[
+				"resp",
+				"Response"
+			],
+			[
+				"time",
+				"timezone  (module)"
+			],
+			[
+				"djang",
+				"django-admin"
+			],
+			[
+				"djan",
+				"django-admin"
+			],
+			[
+				"dj",
+				"django-admin"
+			],
+			[
+				"_",
+				"__debug__	class"
+			],
+			[
+				"as",
+				"astring	statement"
+			],
+			[
+				"rep",
+				"Replace	string ƒ"
+			],
+			[
+				"u",
+				"URL	*url.URL ν"
+			],
+			[
+				"c",
+				"StatusCode	int ν"
+			],
+			[
+				"re",
+				"Req	*http.Request ν"
+			],
+			[
+				"r",
+				"Req	*http.Request ν"
+			],
+			[
+				"onre",
+				"OnResponse	*goproxy.ProxyConds ƒ"
+			],
+			[
+				"t",
+				"Transport	http.RoundTripper ν"
+			],
+			[
+				"respo",
+				"Response	struct ʈ"
+			],
+			[
+				"h",
+				"HijackConnect	 ƒ"
+			],
+			[
+				"li",
+				"ListenAndServeTLS	error ƒ"
+			],
+			[
+				"on",
+				"OnResponse	*goproxy.ProxyConds ƒ"
+			],
+			[
+				"prin",
+				"Println	 ƒ"
+			],
+			[
+				"io",
+				"ioutil	 package ρ"
+			],
+			[
+				"de",
+				"NewDecoder	*json.Decoder ƒ"
+			],
+			[
+				"req",
+				"request	*http.Request ν"
+			],
+			[
+				"rqe",
+				"request	*http.Request ν"
+			],
+			[
+				"pri",
+				"Println	 ƒ"
+			],
+			[
+				"ma",
+				"Marshal	[]byte, error ƒ"
+			],
+			[
+				"he",
+				"Header	map[string][]string ʈ"
+			],
+			[
+				"hand",
+				"HandleFunc	 ƒ"
+			],
+			[
+				"pirnt",
+				"Println	 ƒ"
+			],
+			[
+				"respon",
+				"ResponseWriter	interface ¡"
+			],
+			[
+				"news",
+				"NewSingleHostReverseProxy	*httputil.ReverseProxy ƒ"
+			],
+			[
+				"send",
+				"sendServerResponseToClient	 ƒ"
+			],
+			[
+				"rece",
+				"receiveResponseFromServer	response []byte ƒ"
+			],
+			[
+				"res",
+				"response	[]byte ν"
+			],
+			[
+				"print",
+				"Printf	n int, err error ƒ"
+			],
+			[
+				"lo",
+				"location	 ν"
+			],
+			[
+				"q",
+				"Query	*sql.Rows, error ƒ"
+			],
+			[
+				"st",
+				"stmtIns	*sql.Stmt ν"
+			],
+			[
+				"imp",
+				"import	import (...) ʂ"
+			],
+			[
+				"user",
+				"User	struct ʈ"
+			],
+			[
+				"reg",
+				"RegisterDataBase	error ƒ"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".codeintel/config",
+			"settings":
+			{
+				"buffer_size": 129,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# all the imports\nimport flask\n# create our little application :)\napp = Flask(__name__)\napp.config.from_object(__name__)\n\n\nif __name__ == '__main__':\n    app.run()\n",
+			"file": "flask/flaskr/flaskr.py",
+			"file_size": 276,
+			"file_write_time": 130618739498337635,
+			"settings":
+			{
+				"buffer_size": 164,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 54.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"gp",
+				"Git: Pull"
+			],
+			[
+				"gs",
+				"Git: Status"
+			],
+			[
+				"python",
+				"SublimeREPL: Python"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"remo",
+				"Git: Remote"
+			],
+			[
+				"pytho",
+				"SublimeREPL: Python"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packagein",
+				"Package Control: Install Package"
+			],
+			[
+				"gf",
+				"Git: Fetch"
+			],
+			[
+				"gitpu",
+				"Git: Pull"
+			],
+			[
+				"gpu",
+				"Git: Pull"
+			],
+			[
+				"gr",
+				"Git: Remote"
+			],
+			[
+				"gi",
+				"Git: Init"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"git:pu",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git",
+				"Git: Fetch"
+			],
+			[
+				"git:re",
+				"Git: Remote"
+			],
+			[
+				"git:pull",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git:add",
+				"Git: Add Remote"
+			],
+			[
+				"git:r",
+				"Git: Remote"
+			],
+			[
+				"gin",
+				"Git: Init"
+			],
+			[
+				"git:co",
+				"Git: Commit"
+			],
+			[
+				"git:",
+				"Git: Status"
+			],
+			[
+				"git:st",
+				"Git: Status"
+			],
+			[
+				"git:ch",
+				"Git: Checkout"
+			],
+			[
+				"gitsta",
+				"Git: Status"
+			],
+			[
+				"gfe",
+				"Git: Fetch"
+			],
+			[
+				"gitup",
+				"Git: Pull"
+			],
+			[
+				"gitin",
+				"Git: Init"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"vmen",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"git",
+			"print os.env",
+			"print os",
+			"os.print",
+			"os",
+			"import os;",
+			"import os;print os.getenv('PATH')",
+			"clean",
+			"clear",
+			"cls",
+			"git"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/flask/flaskr"
+	],
+	"file_history":
+	[
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/pyvenv.sublime-project",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/flask/flaskr/flaskr.py",
+		"/home/wangcl/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/flask/config.xml",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/flask/tutorial.py",
+		"/home/wangcl/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/flask/flaskr/schema.sql",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/flask/hello",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/tools/scrapy/tutorial/tutorial/pipelines.py",
+		"/home/wangcl/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/flask/test.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/flask/a.out",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/flask/hello.c",
+		"/usr/lib/python2.7/subprocess.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/webapi/db.sqlite3",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/http/server/eveserver.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/tools/scan.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/tools/scanner.py",
+		"/usr/lib/python2.7/SimpleHTTPServer.py",
+		"/home/wangcl/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/http/client/restclient.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/http/server/settings.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/webapi/webapi/urls.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/.gitignore",
+		"/usr/local/lib/python2.7/dist-packages/django/contrib/auth/models.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/mysite/db.sqlite3",
+		"/usr/local/lib/python2.7/dist-packages/rest_framework/viewsets.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/webapi/api/models.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/webapi/webapi/settings.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/mysite/polls/admin.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/mysite/polls/views.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/mysite/polls/urls.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/mysite/mysite/urls.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/mysite/polls/models.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/mysite/mysite/settings.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/test.py",
+		"/home/wangcl/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/manage.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/myproject/settings.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/django/myproject/urls.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/manage.py",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/ptest.py",
+		"/home/wangcl/.config/sublime-text-3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+		"/home/wangcl/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+		"/home/wangcl/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/home/wangcl/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/wangcl/GoLang/src/github.com/elazarl/goproxy/proxy.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/gae/server/server.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/gae/local/local.go",
+		"/home/wangcl/GoLang/src/github.com/elazarl/goproxy/dispatcher.go",
+		"/home/wangcl/GoLang/src/github.com/elazarl/goproxy/actions.go",
+		"/home/wangcl/GoLang/src/github.com/elazarl/goproxy/examples/httpdump/httpdump.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/proxy/proxy.go",
+		"/home/wangcl/GoLang/src/github.com/elazarl/goproxy/responses.go",
+		"/home/wangcl/GoLang/src/github.com/elazarl/goproxy/https.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/gae/local/local",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/gae/myapp/server.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/gae/myapp/app.yaml",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/HTTP/httpclient.go",
+		"/home/wangcl/goagent/google-hosts/scripts/output/210.242.125.x",
+		"/home/wangcl/goagent/google-hosts/scripts/output/192.168.1.x",
+		"/home/wangcl/.bashrc",
+		"/home/wangcl/.profile",
+		"/home/wangcl/go_appengine/demos/helloworld/helloworld.go",
+		"/home/wangcl/GoLang/src/code.google.com/p/appengine-go/gotool.bat",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/gae/myapp/index.yaml",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/proxy/proxy",
+		"/usr/local/go/src/pkg/fmt/print.go",
+		"/home/wangcl/GoLang/src/github.com/smartystreets/goconvey/convey/doc.go",
+		"/home/wangcl/GoLang/src/github.com/elazarl/goproxy/ctx.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/examples/getlocalip.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/httpdownAndExtract/main.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/website/views/login.tpl",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/website/static/css/style.css",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/.gitignore",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/website/views/index.tpl",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/website/static/js/script.js",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/website/static/themes/autumn.css",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/website/static/themes/default.css",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/website/static/themes/flower.css",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/website/static/themes/forest.css",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/website/static/themes/snow.css",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/website/static/themes/stones.css",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/website/controllers/default.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/test/test.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/website/conf/app.conf",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/test/mysqltest.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/test/.directory",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/.gitignore",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/HTTP/goagentup.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/mysqltester/mysqltester",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/test/for.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/mysqltester/mysqltester.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/.gitattributes",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/golang.sublime-project",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/lifeforce/main.go",
+		"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/lifeforce/lifeforce",
+		"/home/wangcl/.config/sublime-text-3/Packages/User/Side Bar Folders.sublime-settings",
+		"/home/wangcl/GoLang/src/github.com/beego/samples/WebIM/WebIM.go",
+		"/home/wangcl/GoLang/src/github.com/beego/samples/WebIM/controllers/app.go"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/wangcl/GoLang/src/github.com/elazarl/goproxy",
+			"/home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/website/static",
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/flask/flaskr/flaskr.py",
+			"cmd",
+			"target",
+			"encoded",
+			"polls",
+			" ",
+			"proxy",
+			"AlwaysMitm",
+			"proxy.OnRequest().DoFunc(\n		func(r *http.Request, ctx *goproxy.ProxyCtx) (*http.Request, *http.Response) {\n			if r.URL.Scheme == \"https\" {\n				r.URL.Scheme = \"http\"\n			}\n			log.Println(r.URL)\n			return r, Post(r)\n		})",
+			"proxy.OnRequest().DoFunc(func(req *http.Request, ctx *goproxy.ProxyCtx) (*http.Request, *http.Response) {\n		if req.URL.Scheme == \"https\" {\n			req.URL.Scheme = \"http\"\n		}\n		log.Println(req.URL)\n		return req, nil\n	})",
+			"Method == \"CONNECT\"",
+			"ProxyHttpServer",
+			"body",
+			"Body",
+			",\n",
+			"_",
+			"fetch",
+			"../static/images/",
+			"//static/images/",
+			"/static/images/",
+			"/static/images//",
+			"/static/images/",
+			"/static/images",
+			"/static//static/images",
+			"/static/images",
+			"images/",
+			"images/eye",
+			"images/",
+			"images/me",
+			"image/me",
+			"image/me.jpg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/static/images/",
+			"/static/images"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".codeintel/config",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"open_with_edit": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "flask/flaskr/flaskr.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///home/wangcl/GoLang/src/github.com/elazarl/goproxy":
+	{
+		"height": 112.0
+	},
+	"output.9o:///home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/HTTP":
+	{
+		"height": 112.0
+	},
+	"output.9o:///home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/examples":
+	{
+		"height": 195.0
+	},
+	"output.9o:///home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/gae/local":
+	{
+		"height": 195.0
+	},
+	"output.9o:///home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/gae/myapp":
+	{
+		"height": 335.0
+	},
+	"output.9o:///home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/gae/server":
+	{
+		"height": 112.0
+	},
+	"output.9o:///home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/httpdownAndExtract":
+	{
+		"height": 112.0
+	},
+	"output.9o:///home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/mysqltester":
+	{
+		"height": 112.0
+	},
+	"output.9o:///home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/proxy":
+	{
+		"height": 112.0
+	},
+	"output.9o:///home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/test":
+	{
+		"height": 112.0
+	},
+	"output.9o:///home/wangcl/GoLang/src/github.com/wangchunlei/GoLang/try":
+	{
+		"height": 112.0
+	},
+	"output.9o:///home/wangcl/go_appengine/demos/guestbook":
+	{
+		"height": 112.0
+	},
+	"output.exec":
+	{
+		"height": 251.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 112.0
+	},
+	"output.git-fetch":
+	{
+		"height": 112.0
+	},
+	"output.git-init":
+	{
+		"height": 112.0
+	},
+	"output.git-pull":
+	{
+		"height": 112.0
+	},
+	"output.git-push":
+	{
+		"height": 112.0
+	},
+	"output.git-remote":
+	{
+		"height": 112.0
+	},
+	"project": "pyvenv.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"golang.sublime-project"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
