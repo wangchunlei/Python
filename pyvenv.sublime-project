@@ -3,7 +3,7 @@
 	[
 		{
 			"follow_symlinks": true,
-			"path": "/home/wangcl/GoLang/src/github.com/wangchunlei/Python"
+			"path": "."
 		}
 	]
 }
