@@ -11,7 +11,7 @@ def api_root():
     return 'Domas linux build server!'
 
 
-@app.route('/build', methods=['POST'])
+@app.route('/build/qml_demo', methods=['POST'])
 def api_post():
     data = request.get_json(force=True)
     company = data['company']
