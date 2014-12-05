@@ -4,6 +4,78 @@
 		"selected_items":
 		[
 			[
+				"try",
+				"try	Try/Except/Else"
+			],
+			[
+				"que",
+				"Question"
+			],
+			[
+				"quest",
+				"question_id"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"http",
+				"Http404  (class)"
+			],
+			[
+				"tr",
+				"try	Try/Except"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"qu",
+				"question_id"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"def",
+				"def	Function"
+			],
+			[
+				"url",
+				"urls"
+			],
+			[
+				"httpre",
+				"HttpResponse  (class)"
+			],
+			[
+				"ch",
+				"ChoiceInline"
+			],
+			[
+				"datet",
+				"datetime"
+			],
+			[
+				"__",
+				"__str__"
+			],
+			[
+				"m",
+				"m"
+			],
+			[
+				"model",
+				"Model"
+			],
+			[
+				"c",
+				"conf  (module)"
+			],
+			[
 				"fl",
 				"Flask"
 			],
@@ -12,24 +84,8 @@
 				"ElementTree  (module)"
 			],
 			[
-				"def",
-				"defs	Method"
-			],
-			[
 				"pro",
 				"product"
-			],
-			[
-				"__",
-				"__name__"
-			],
-			[
-				"requ",
-				"request"
-			],
-			[
-				"ch",
-				"check_output  (function)"
 			],
 			[
 				"ar",
@@ -136,10 +192,6 @@
 				"URL	*url.URL ν"
 			],
 			[
-				"c",
-				"StatusCode	int ν"
-			],
-			[
 				"re",
 				"Req	*http.Request ν"
 			],
@@ -228,10 +280,6 @@
 				"receiveResponseFromServer	response []byte ƒ"
 			],
 			[
-				"res",
-				"response	[]byte ν"
-			],
-			[
 				"print",
 				"Printf	n int, err error ƒ"
 			],
@@ -263,16 +311,44 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "django/website/mysite/polls/views.py",
+			"settings":
+			{
+				"buffer_size": 1250,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 54.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"SublimeREPL: Python"
+			],
+			[
+				"gp",
+				"Git: Push"
+			],
+			[
+				"gr",
+				"Git: Remote"
+			],
+			[
+				"gs",
+				"Git: Status"
 			],
 			[
 				"remove",
@@ -289,18 +365,6 @@
 			[
 				"instal",
 				"Package Control: Install Package"
-			],
-			[
-				"gp",
-				"Git: Pull"
-			],
-			[
-				"gs",
-				"Git: Status"
-			],
-			[
-				"python",
-				"SublimeREPL: Python"
 			],
 			[
 				"insta",
@@ -345,10 +409,6 @@
 			[
 				"gpu",
 				"Git: Pull"
-			],
-			[
-				"gr",
-				"Git: Remote"
 			],
 			[
 				"gi",
@@ -423,10 +483,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"package",
-				"Package Control: Remove Package"
-			],
-			[
 				"pac",
 				"Package Control: Remove Package"
 			],
@@ -443,13 +499,18 @@
 				"View: Toggle Menu"
 			]
 		],
-		"width": 449.0
+		"width": 602.0
 	},
 	"console":
 	{
 		"height": 139.0,
 		"history":
 		[
+			"import timezone;timezone.get_current_timezone_name()",
+			".",
+			"import string; print string.digits",
+			"print strings.digits",
+			"print string.digits",
 			"git",
 			"print os.env",
 			"print os",
@@ -474,10 +535,32 @@
 	},
 	"expanded_folders":
 	[
-		"/home/wangcl/Python"
+		"/home/wangcl/Python",
+		"/home/wangcl/Python/django",
+		"/home/wangcl/Python/django/website",
+		"/home/wangcl/Python/django/website/mysite",
+		"/home/wangcl/Python/django/website/mysite/mysite",
+		"/home/wangcl/Python/django/website/mysite/polls",
+		"/home/wangcl/Python/django/website/mysite/polls/templates",
+		"/home/wangcl/Python/django/website/mysite/polls/templates/polls",
+		"/home/wangcl/Python/http",
+		"/home/wangcl/Python/tools"
 	],
 	"file_history":
 	[
+		"/home/wangcl/Python/django/website/mysite/mysite/urls.py",
+		"/home/wangcl/Python/django/website/mysite/polls/urls.py",
+		"/home/wangcl/Python/django/website/mysite/polls/templates/polls/index.html",
+		"/home/wangcl/Python/django/website/mysite/polls/templates/polls/detail.html",
+		"/home/wangcl/Python/django/website/mysite/polls/views.py",
+		"/home/wangcl/Python/django/website/mysite/mysite/settings.py",
+		"/home/wangcl/Python/django/website/mysite/polls/admin.py",
+		"/home/wangcl/Python/django/website/mysite/polls/models.py",
+		"/home/wangcl/Python/django/website/mysite/templates/admin/base_site.html",
+		"/home/wangcl/Python/flaskdemo/flaskr/flaskr.py",
+		"/home/wangcl/Python/django/website/mysite/t.py",
+		"/home/wangcl/Python/django/website/mysite/manage.py",
+		"/home/wangcl/.config/sublime-text-3/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
 		"/home/wangcl/Python/.codeintel/config",
 		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/pyvenv.sublime-project",
 		"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/flask/flaskr/flaskr.py",
@@ -600,6 +683,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'),\n",
 			"/home/wangcl/GoLang/src/github.com/wangchunlei/Python/flask/flaskr/flaskr.py",
 			"cmd",
 			"target",
@@ -638,6 +722,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"QuestionAdmin",
 			"/static/images/",
 			"/static/images"
 		],
@@ -650,8 +735,143 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "django/website/mysite/polls/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1132,
+								1132
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
