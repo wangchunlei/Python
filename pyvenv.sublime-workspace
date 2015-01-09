@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"model",
+				"models"
+			],
+			[
+				"mo",
+				"models"
+			],
+			[
 				"que",
 				"question"
 			],
@@ -66,10 +74,6 @@
 			[
 				"m",
 				"m"
-			],
-			[
-				"model",
-				"Model"
 			],
 			[
 				"c",
@@ -312,10 +316,21 @@
 	"buffers":
 	[
 		{
-			"file": "django/website/mysite/mysite/settings.py",
+			"file": "django/cs/cs/settings.py",
 			"settings":
 			{
-				"buffer_size": 2144,
+				"buffer_size": 2100,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "from django.db import models\n\nclass User(models.):\n	\"\"\"docstring for User\"\"\"\n	user_code = models.\n",
+			"file": "django/cs/cs_user/models.py",
+			"file_size": 86,
+			"file_write_time": 130652585711388383,
+			"settings":
+			{
+				"buffer_size": 98,
 				"line_ending": "Unix"
 			}
 		}
@@ -327,16 +342,16 @@
 		"selected_items":
 		[
 			[
+				"gp",
+				"Git: Pull"
+			],
+			[
 				"gs",
 				"Git: Status"
 			],
 			[
 				"python",
 				"Set Syntax: Python"
-			],
-			[
-				"gp",
-				"Git: Push"
 			],
 			[
 				"gr",
@@ -503,7 +518,7 @@
 				"View: Toggle Menu"
 			]
 		],
-		"width": 602.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -541,17 +556,13 @@
 	[
 		"/home/wcl/codes/Python",
 		"/home/wcl/codes/Python/django",
-		"/home/wcl/codes/Python/django/website",
-		"/home/wcl/codes/Python/django/website/mysite",
-		"/home/wcl/codes/Python/django/website/mysite/mysite",
-		"/home/wcl/codes/Python/django/website/mysite/polls",
-		"/home/wcl/codes/Python/django/website/mysite/templates",
-		"/home/wcl/codes/Python/http/client",
-		"/home/wcl/codes/Python/http/server"
+		"/home/wcl/codes/Python/django/cs",
+		"/home/wcl/codes/Python/django/cs/cs_user"
 	],
 	"file_history":
 	[
 		"/home/wcl/codes/Python/django/website/mysite/polls/views.py",
+		"/home/wcl/codes/Python/django/cs/cs_user/models.py",
 		"/home/wcl/codes/Python/django/website/mysite/polls/templates/polls/results.html",
 		"/home/wcl/codes/Python/tools/nslookup.py",
 		"/home/wcl/codes/Python/http/server/eveserver.py",
@@ -746,34 +757,271 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "django/website/mysite/mysite/settings.py",
-					"semi_transient": true,
+					"file": "django/cs/cs/settings.py",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2144,
+						"buffer_size": 2100,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1654,
-								1747
+								1825,
+								1825
 							]
 						],
 						"settings":
 						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 510.0,
+						"translation.x": 0.0,
+						"translation.y": 612.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "django/cs/cs_user/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
