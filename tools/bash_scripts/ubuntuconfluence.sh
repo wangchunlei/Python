@@ -22,8 +22,8 @@ tar xzvf atlassian-confluence-5.4.4.tar.gz -C ~/atlassian/confluence
 
 # copy crack
 
-cp ~/tmp/con/Confluence_Crack/atlassian-extras-2.4.jar ~/tmp/con/Confluence_Crack/atlassian-extras-decoder-v2-3.1.1.jar ~/atlassian/confluence/atlassian-confluence-5.4.4/atlassian-confluence/WEB-INF/lib
-cp ~/tmp/con/Confluence_Crack/atlassian-universal-plugin-manager-plugin-2.14.jar ~/atlassian/confluence/atlassian-confluence-5.4.4/atlassian-confluence/WEB-INF/atlassian-bundled-plugins
+cp ~/tmp/con/Confluence_Crack/atlassian-extras-2.4.jar ~/tmp/con/Confluence_Crack/atlassian-extras-decoder-v2-3.1.1.jar ~/atlassian/confluence/atlassian-confluence-5.4.4/confluence/WEB-INF/lib
+cp ~/tmp/con/Confluence_Crack/atlassian-universal-plugin-manager-plugin-2.14.jar ~/atlassian/confluence/atlassian-confluence-5.4.4/confluence/WEB-INF/atlassian-bundled-plugins
 
 # create confluence user account
 echo $password | sudo -S /usr/sbin/useradd --create-home --comment "confluence user" --shell /bin/bash confluence
@@ -32,7 +32,7 @@ echo $password | sudo -S /usr/sbin/useradd --create-home --comment "confluence u
 mkdir -p ~/confluence_home
 chown confluence:confluence ~/confluence_home/
 export confluence_HOME=/root/confluence_home
-sed -i "s/^confluence.home.*/confluence.home = \/root\/confluence_home/g" ~/atlassian/confluence/atlassian-confluence-5.4.4/atlassian-confluence/WEB-INF/classes/confluence-application.properties
+sed -i "s/^# confluence.home.*/confluence.home = \/root\/confluence_home/g" ~/atlassian/confluence/atlassian-confluence-5.4.4/confluence/WEB-INF/classes/confluence-init.properties
 
 # start confluence
 cd ~/atlassian/confluence/atlassian-confluence-5.4.4
