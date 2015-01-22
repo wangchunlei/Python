@@ -15,7 +15,7 @@ echo $password | sudo -S sh -c 'echo JAVA_HOME="/usr/lib/jvm/java-7-openjdk-amd6
 cd ~
 mkdir tmp
 cd tmp
-wget http://downloads.atlassian.com/software/jira/downloads/atlassian-jira-6.3.6.tar.gz
+# wget http://downloads.atlassian.com/software/jira/downloads/atlassian-jira-6.3.6.tar.gz
 
 mkdir -p ~/atlassian/jira
 tar xzvf atlassian-jira-6.3.6.tar.gz -C ~/atlassian/jira
@@ -26,7 +26,8 @@ echo $password | sudo -S /usr/sbin/useradd --create-home --comment "jira user" -
 # set jira home
 mkdir -p ~/jira_home
 chown jira:jira ~/jira_home/
-export JIRA_HOME=~/jira_home
+export JIRA_HOME=/root/jira_home
+sed -i "s/^jira.home.*/jira.home = \/root\/jira_home/g" ~/atlassian/jira/atlassian-jira-6.3.6-standalone/atlassian-jira/WEB-INF/classes/jira-application.properties
 
 # start jira
 cd ~/atlassian/jira/atlassian-jira-6.3.6-standalone

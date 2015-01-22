@@ -4,3 +4,4 @@ django/webapi/db.sqlite3
 *.sqlite3
 *.pyc
 venv/
+pyvenv.sublime-workspace
