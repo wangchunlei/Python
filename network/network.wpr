@@ -1,0 +1,12 @@
+#!wing
+#!version=5.0
+##################################################################
+# Wing IDE project file                                          #
+##################################################################
+[project attributes]
+proj.file-list = [loc('bhnet.py'),
+                  loc('proxy.py'),
+                  loc('tcpclient.py'),
+                  loc('tcpserver.py'),
+                  loc('udpclient.py')]
+proj.file-type = 'shared'

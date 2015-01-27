@@ -80,7 +80,6 @@ def main():
     # depending on our command line options above
     if listen:
         server_loop()
-main()
 
 def client_sender(buffer):
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -129,7 +128,7 @@ def server_loop():
         
         
 def run_command(command):
-# trim the newline
+    # trim the newline
     command = command.rstrip()
     # run the command and get the output back
     try:
@@ -183,3 +182,6 @@ def client_handler(client_socket):
             response = run_command(cmd_buffer)
             # send back the response
             client_socket.send(response)
+            
+            
+main()
